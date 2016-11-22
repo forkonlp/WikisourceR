@@ -1,0 +1,23 @@
+Package: WikisourceR
+Type: Package
+Title: API Client Library for 'Wikisource'
+Version: 0.0.1
+Date: 2016-11-23
+Author: Chan-Yub Park [aut, cre]
+Maintainer: Chan-Yub Park <mrchypark@gmail.com>
+Description: An API client for the Wikisource <http://wikisource.org/> store of
+    semantic data.
+BugReports: https://github.com/forkonlp/WikisourceR/issues
+URL: https://github.com/source/WikisourceR/issues
+License: MIT + file LICENSE
+Imports:
+    httr,
+    jsonlite,
+    WikipediR,
+    utils
+Suggests:
+    testthat,
+    knitr,
+    pageviews
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
