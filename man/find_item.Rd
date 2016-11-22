@@ -28,10 +28,8 @@ use \code{\link{str}} to manipulate and see the underlying structure of the data
 \examples{
 
 #Check for entries relating to Douglas Adams in some way
-adams_items <- find_item("Douglas Adams")
 
 #Check for properties involving the peerage
-peerage_props <- find_property("peerage")
 
 }
 \seealso{

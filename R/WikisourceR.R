@@ -1,7 +1,7 @@
 #' @title API client library for Wikisource
 #' @description This package serves as an API client for \href{Wikisource}{https://www.wikisource.org}.
 #' See the accompanying vignette for more details.
-#' 
+#'
 #' @name WikisourceR
 #' @docType package
 #'@seealso \code{\link{get_random}} for selecting a random item or property,

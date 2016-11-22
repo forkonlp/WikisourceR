@@ -30,17 +30,17 @@ check_input <- function(input, substitution){
 }
 
 #Generic, direct access to Wikisource's search functionality.
-searcher <- function(search_term, language, limit, format, ...){
-  result <- WikipediR::query(url = "https://Wikisource.org/w/api.php", out_class = "list", clean_response = FALSE,
+searcher <- function(search_term, language, limit,  ...){
+  url <- WikipediR::url_gen(language,"Wikisource")
+  result <- WikipediR::query(url = url, out_class = "list", clean_response = FALSE,
                              query_param = list(
                                action   = "opensearch", 
-                               format   = format,
-                               language = language,
+                               # type   = type,
+                               # language = language,
                                limit    = limit,
                                search   = search_term
                              ),
                              ...)
-  result <- result$search
   return(result)
 }
 

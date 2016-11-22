@@ -99,10 +99,10 @@ get_random_property <- function(limit = 1, ...){
 #'@examples
 #'
 #'#Check for entries relating to Douglas Adams in some way
-#'adams_items <- find_item("Douglas Adams")
+# #'adams_items <- find_item("Douglas Adams")
 #'
 #'#Check for properties involving the peerage
-#'peerage_props <- find_property("peerage")
+# #'peerage_props <- find_property("peerage")
 #'
 #'@aliases find_item find_property
 #'@rdname find_item

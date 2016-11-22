@@ -69,7 +69,7 @@ print.find_property <- function(x, ...) {
 #'@seealso get_item, get_random_item, get_property or get_random_property
 #'@method print wikisource
 #'@export
-print.wikidata <- function(x, ...){
+print.wikisource <- function(x, ...){
   cat("\n\tWikisource", x$type, x$id, "\n\n")
   
   # labels
